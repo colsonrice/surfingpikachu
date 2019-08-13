@@ -1,24 +1,64 @@
-
-
 body {
-  background-color: #8fbd9f;
-
+  margin: 0;
+  text-align: center;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: gray;
-  border-width: 5px;
-  //background-color: white;
-  //height: 2px;
-  width: 5%;
+
+div {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  margin-top: 0px;
+  background-color: #f0d78c;
 }
 
-h1 {
-  color: white;
+/*
+Class
+*/
+
+.topDiv {
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  margin-top: 0px;
+  background-color: #f0d78c;
+  width: 100%;
 }
 
-h3 {
-  color: white;
+.midDiv {
+  background-color: #fcfafa;
+  height: 80px;
+}
+
+.lowDiv {
+  background-color: #64c4ed;
+  height: 120px;
+}
+
+.bottomDiv {
+  background-color: #4f81c7;
+  height: 400px;
+}
+
+
+
+/*
+ID
+*/
+
+#topless {
+  margin-top: 0px;
+}
+
+#sub {
+  height: 80px;
+  position: fixed;
+}
+
+#player {
+  position: absolute;
+  top: 16px;
+  right: 40px;
+  padding-left: 36px;
+  height: 100px;
 }
