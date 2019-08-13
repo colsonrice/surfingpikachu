@@ -1,8 +1,8 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Lexend Exa', sans-serif;
 }
-
 
 div {
   padding-top: 16px;
@@ -11,6 +11,7 @@ div {
   margin-top: 0px;
   margin-right: 0px;
   background-color: #f0d78c;
+  width: 100%;
 }
 
 /*
@@ -23,27 +24,22 @@ Class
   padding-bottom: 16px;
   margin-top: 0px;
   background-color: #f0d78c;
-  width: 100%;
 }
 
 .midDiv {
   background-color: #fcfafa;
   height: 80px;
-  width: 100%;
 }
 
 .lowDiv {
   background-color: #64c4ed;
   height: 120px;
-  width: 100%;
 }
 
 .bottomDiv {
   background-color: #4f81c7;
   height: 400px;
 }
-
-
 
 /*
 ID
@@ -58,10 +54,10 @@ ID
   position: fixed;
 }
 
-#player {
+#pika {
   position: absolute;
-  top: 16px;
-  right: 400px;
+  top: -16px;
+  right: 40px;
   padding-left: 36px;
-  height: 100px;
+  height: 200px;
 }
