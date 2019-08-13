@@ -9,6 +9,7 @@ div {
   padding-left: 16px;
   padding-bottom: 16px;
   margin-top: 0px;
+  margin-right: 0px;
   background-color: #f0d78c;
 }
 
@@ -28,11 +29,13 @@ Class
 .midDiv {
   background-color: #fcfafa;
   height: 80px;
+  width: 100%;
 }
 
 .lowDiv {
   background-color: #64c4ed;
   height: 120px;
+  width: 100%;
 }
 
 .bottomDiv {
@@ -58,7 +61,7 @@ ID
 #player {
   position: absolute;
   top: 16px;
-  right: 40px;
+  right: 400px;
   padding-left: 36px;
   height: 100px;
 }
